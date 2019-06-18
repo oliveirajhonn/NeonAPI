@@ -1,0 +1,170 @@
+{
+	"id": "57e72326-77ec-4a70-9fb8-7ebf2fd96bd7",
+	"name": "Neon",
+	"allTests": [],
+	"timestamp": "2019-06-18T03:59:02.987Z",
+	"collection_id": "a81c8b6d-b55d-4605-8725-27c2405f92a5",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "a81c8b6d-b55d-4605-8725-27c2405f92a5",
+		"name": "Neon",
+		"description": null,
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [
+			"34b72c57-0cc5-417b-98dd-c6082284898d",
+			"e97f6ffa-7cf3-4b28-8d4b-15e6deed96ee"
+		],
+		"folders_order": [],
+		"owner": "7845036",
+		"favorite": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "  https://swapi.co/api/films/",
+			"id": "34b72c57-0cc5-417b-98dd-c6082284898d",
+			"url": "https://swapi.co/api/films/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Obter titulos": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Obter titulos": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"795"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Obter titulos": true
+				}
+			],
+			"time": "795",
+			"totalRequestTime": "795",
+			"iterationResults": {}
+		},
+		{
+			"name": "https://swapi.co/api/planets/",
+			"id": "e97f6ffa-7cf3-4b28-8d4b-15e6deed96ee",
+			"url": "https://swapi.co/api/planets/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Status code is 200": true,
+				"validar retorno": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validar retorno": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"359"
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"validar retorno": true
+				}
+			],
+			"time": "359",
+			"totalRequestTime": "359",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 4,
+	"totalFail": 0,
+	"totalTime": 1154,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "  https://swapi.co/api/films/",
+			"id": "34b72c57-0cc5-417b-98dd-c6082284898d",
+			"url": "https://swapi.co/api/films/",
+			"time": "2019-06-18T03:59:02.987Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Obter titulos": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "https://swapi.co/api/planets/",
+			"id": "e97f6ffa-7cf3-4b28-8d4b-15e6deed96ee",
+			"url": "https://swapi.co/api/planets/",
+			"time": "2019-06-18T03:59:02.987Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"validar retorno": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
